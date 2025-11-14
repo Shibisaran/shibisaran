@@ -1,0 +1,310 @@
+:root {
+  --bg-start: #0f2027;
+  --bg-mid: #203a43;
+  --bg-end: #2c5364;
+  --accent: #0d6efd;
+  --charcoal: #36454F;
+  --contrast-text: #F1F5F9;
+}
+
+html, body {
+  scroll-behavior: smooth;
+  margin: 0; /* remove default top white strip */
+  padding: 0;
+  box-sizing: border-box;
+  /* default background image for all pages - static background */
+  background-image: url('../images/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* static background that doesn't scroll */
+  background-color: var(--charcoal);
+  color: var(--contrast-text);
+  min-height: 100vh; /* ensure full height coverage */
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  flex: 1;
+}
+
+
+.hero-section, section {
+  scroll-margin-top: 80px; /* offset for sticky navbar */
+}
+
+.bg-gradient {
+  background: linear-gradient(135deg, var(--bg-start), var(--bg-mid), var(--bg-end));
+}
+
+.navbar-transparent {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  /* mirror hero/background behavior for consistency */
+  background-image: url('../images/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.navbar-transparent .nav-link,
+.navbar-transparent .navbar-brand {
+  color: var(--contrast-text);
+}
+
+.navbar-transparent .nav-link:hover,
+.navbar-transparent .nav-link:focus {
+  color: #e2e8f0;
+}
+
+.hero-section {
+  min-height: 85vh;
+  /* use provided hero background image */
+  background-image: url('../images/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* keep hero image static while scrolling */
+  color: var(--contrast-text);
+  padding: 6rem 0;
+}
+
+.home-page #about,
+#about {
+  color: #000000; /* ensure about text is black */
+}
+
+/* Re-focus hero image to its left side on smaller screens - apply to body/html too */
+@media (max-width: 992px) {
+  html, body {
+    background-position: left center; /* center the left side of image */
+  }
+  .hero-section {
+    background-position: left center;
+  }
+  .navbar-transparent {
+    background-position: left center;
+  }
+}
+
+@media (max-width: 576px) {
+  html, body {
+    background-position: 20% center; /* nudge a bit to keep left side centered */
+  }
+  .hero-section {
+    background-position: 20% center;
+  }
+  .navbar-transparent {
+    background-position: 20% center;
+  }
+}
+
+/* Smooth fade-in for sections on scroll */
+.section-fade {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity .6s ease, transform .6s ease;
+}
+.section-fade.in-view {
+  opacity: 1;
+  transform: none;
+}
+.gradient-text {
+  background: linear-gradient(90deg, #60a5fa, #a78bfa, #f472b6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.profile-pic {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 0;
+  border: none;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+  transition: transform .2s ease-in-out;
+}
+
+.back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: none;
+  border-radius: 50%;
+}
+
+.cert-image {
+  max-height: 150px;
+  object-fit: contain;
+}
+
+footer {
+  background-color: #0b1220;
+  color: #d1d5db;
+  margin-top: auto !important; /* push footer to bottom, override Bootstrap classes */
+  margin-bottom: 0 !important; /* no space below footer */
+  padding-bottom: 0;
+}
+
+main {
+  flex: 1; /* take available space, push footer down */
+}
+
+/* Enhanced hover/active/focus effects for all site buttons (excluding navbar) */
+body .btn {
+  position: relative;
+  overflow: hidden;
+  transition: transform .2s ease, box-shadow .25s ease, filter .2s ease, background-color .25s ease, color .25s ease, border-color .25s ease;
+  will-change: transform, box-shadow;
+}
+
+/* glossy sweep highlight */
+body .btn::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -25%;
+  width: 50%;
+  height: 200%;
+  background: radial-gradient(ellipse at center, rgba(255,255,255,.45) 0%, rgba(255,255,255,0) 60%);
+  transform: rotate(25deg) translateX(-150%);
+  transition: transform .5s ease, opacity .5s ease;
+  opacity: 0;
+  pointer-events: none;
+}
+
+body .btn:hover::after,
+body .btn:focus::after {
+  transform: rotate(25deg) translateX(300%);
+  opacity: .35;
+}
+
+body .btn:hover,
+body .btn:focus {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 10px 22px rgba(0,0,0,.18);
+}
+
+body .btn:active {
+  transform: translateY(0) scale(.98);
+  box-shadow: 0 6px 14px rgba(0,0,0,.14);
+}
+
+/* Accessible focus ring */
+body .btn:focus-visible {
+  outline: 3px solid #ffd200;
+  outline-offset: 2px;
+}
+
+/* Home hero buttons: warm orange -> golden yellow gradient */
+/* Global button style: white with black text (exclude any buttons inside navbar) */
+body .btn {
+  background-color: #ffffff;
+  color: #111111;
+  border: 1px solid #ffffff;
+}
+body .btn:hover,
+body .btn:focus {
+  background-color: #f2f2f2;
+  color: #111111;
+  border-color: #f2f2f2;
+}
+body .btn:active {
+  background-color: #e6e6e6;
+  color: #111111;
+  border-color: #e6e6e6;
+}
+.navbar .btn {
+  /* keep navbar buttons (if any) untouched */
+  background: inherit;
+  color: inherit;
+  border: none;
+}
+
+/* Explore section buttons: warm orange -> golden yellow gradient */
+/* Explore links will inherit the global white button style now */
+
+/* Floating Certification Images in Right Side - Zigzag Pattern */
+.floating-certifications {
+  position: fixed;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  pointer-events: none;
+}
+
+.floating-cert-item {
+  position: relative;
+  pointer-events: auto;
+}
+
+.floating-cert-img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.floating-cert-item:hover .floating-cert-img {
+  transform: scale(1.15);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  z-index: 101;
+}
+
+/* Zigzag pattern with floating animation */
+@keyframes floatZigzag1 {
+  0%, 100% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-15px) translateX(0);
+  }
+}
+
+@keyframes floatZigzag2 {
+  0%, 100% {
+    transform: translateY(0) translateX(-35px);
+  }
+  50% {
+    transform: translateY(-15px) translateX(-35px);
+  }
+}
+
+.floating-cert-1 {
+  animation: floatZigzag1 3s ease-in-out infinite;
+}
+
+.floating-cert-2 {
+  animation: floatZigzag2 3s ease-in-out infinite 0.3s;
+}
+
+.floating-cert-3 {
+  animation: floatZigzag1 3s ease-in-out infinite 0.6s;
+}
+
+.floating-cert-4 {
+  animation: floatZigzag2 3s ease-in-out infinite 0.9s;
+}
+
+/* Responsive: Hide on small screens */
+@media (max-width: 768px) {
+  .floating-certifications {
+    display: none;
+  }
+}
+
