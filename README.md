@@ -1,68 +1,24 @@
-# Portfolio Website - Static HTML/CSS/JS Version
+# 💫 About Me:
+🌩️ About Me <br>Hi, I'm Shibisaran — a Cloud Engineer focused on AWS and devops. ☁️<br>🔭 I’m currently working on <br>Building and deploying cloud-based applications on AWS, exploring highly available, secure, and scalable architectures.<br>🤝 I’m looking to collaborate on<br>AWS cloud projects, DevOps, cloud-native applications, and open-source projects where I can contribute and gain real-world experience.<br>🆘 I’m looking for help with<br>Deepening my knowledge of AWS architecture, DevOps, automation, security, and production-grade cloud infrastructure.<br>🌱 I’m currently learning<br>AWS, Cloud Architecture, Linux, Networking, Docker, CI/CD, Infrastructure as Code, and DevOps.<br>💬 Ask me about<br>AWS, EC2, S3, IAM, VPC, RDS, Route 53, CloudFront, Load Balancers, CloudWatch, Linux, and cloud architecture.<br>⚡ Fun fact<br>I don't just want to use the cloud — I want to understand how everything works behind it. ☁️🚀<br><br>🔭 Building and deploying cloud-based applications with AWS ☁️<br>🤝 Open to collaborating on AWS, Cloud & DevOps projects<br>🌱 Currently mastering AWS, Linux, Networking, Docker & CI/CD<br>💬 Ask me about AWS, Cloud Architecture & DevOps<br>⚡ Learning the cloud one service at a time. 🚀
 
-A complete static portfolio website with HTML, CSS, and JavaScript only (no backend required).
 
-## Features
+## 🌐 Socials:
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/shibisaran.m) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/shibisaran.m) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/shibisaran-m-035492213) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:shibisaran1@gmail.com) 
 
-- ✅ Fully responsive design with Bootstrap 5
-- ✅ Smooth scrolling and animations
-- ✅ Floating certification badges
-- ✅ Contact form (frontend only - needs backend for submission)
-- ✅ All pages: Home, About, Skills, Projects, Certifications, Achievements, Contact
+# 💻 Tech Stack:
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.shion.dev/api?username=Shibisaran&theme=dracula&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://streak-stats.demolab.com/?user=Shibisaran&theme=dracula&hide_border=false)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=Shibisaran&theme=dracula&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-## File Structure
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-```
-portfolio-static/
-├── index.html          # Home page
-├── about.html
-├── skills.html
-├── projects.html
-├── certifications.html
-├── achievements.html
-├── contact.html
-├── css/
-│   └── style.css      # All custom styles
-├── js/
-│   └── main.js        # JavaScript functionality
-└── images/            # Place your images here
-    ├── profile.png
-    ├── hero-bg.png
-    ├── favicon.png
-    ├── resume.pdf
-    ├── cert-oci.png
-    ├── cert-azure.png
-    ├── cert-redhat.png
-    └── cert-aws.png
-```
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=Shibisaran&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
-## Setup
+---
+[![](https://komarev.com/ghpvc/?username=Shibisaran&icon=0&color=0)](https://visitcount.itsvg.in)
 
-1. **Copy your images** from the Django project:
-   - Copy `portfolio/static/portfolio/images/*` to `portfolio-static/images/`
-
-2. **Update links** in HTML files:
-   - Update GitHub links in `projects.html`
-   - Update social media links in all HTML files (footer section)
-   - Update email address in contact form and footer
-
-3. **Open in browser**:
-   - Simply open `index.html` in your web browser
-   - Or use a local server: `python -m http.server 8000`
-
-## Deployment
-
-This static site can be deployed to:
-- **GitHub Pages** (Free)
-- **Netlify** (Free)
-- **Vercel** (Free)
-- **Cloudflare Pages** (Free)
-- Any static hosting service
-
-## Notes
-
-- Contact form shows success message but doesn't actually send emails (needs backend)
-- All data is hardcoded in HTML files
-- Images need to be placed in the `images/` folder
-- Update all placeholder links (GitHub, LinkedIn, Email) with your actual links
-
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
