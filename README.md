@@ -1,6 +1,22 @@
 # 💫 About Me:
 ## 🌩️ About Me<br>
-Hi, I'm Shibi — a Software Developer focused on AWS and Cloud Computing. ☁️<br>🔭 I’m currently working on<br>Building and deploying cloud-based applications on AWS, exploring highly available, secure, and scalable architectures.<br>🤝 I’m looking to collaborate on<br>AWS cloud projects, DevOps, cloud-native applications, and open-source projects where I can contribute and gain real-world experience.<br>🆘 I’m looking for help with<br>Deepening my knowledge of AWS architecture, DevOps, automation, security, and production-grade cloud infrastructure.<br>🌱 I’m currently learning<br>AWS, Cloud Architecture, Linux, Networking, Docker, CI/CD, Infrastructure as Code, and DevOps.<br>💬 Ask me about<br>AWS, EC2, S3, IAM, VPC, RDS, Route 53, CloudFront, Load Balancers, CloudWatch, Linux, and cloud architecture.<br>⚡ Fun fact<br>I don't just want to use the cloud — I want to understand how everything works behind it. ☁️🚀<br>⭐ My recommended version for your GitHub<br>🔭 Building and deploying cloud-based applications with AWS ☁️<br>🤝 Open to collaborating on AWS, Cloud & DevOps projects<br>🌱 Currently mastering AWS, Linux, Networking, Docker & CI/CD<br>💬 Ask me about AWS, Cloud Architecture & DevOps<br>⚡ Learning the cloud one service at a time. 🚀
+Hi, I'm Shibi — a Software Developer focused on AWS and Cloud Computing. ☁️<br>
+
+🔭 I’m currently working on<br>Building and deploying cloud-based applications on AWS, exploring highly available, secure, and scalable architectures.<br>
+
+🤝 I’m looking to collaborate on<br>AWS cloud projects, DevOps, cloud-native applications, and open-source projects where I can contribute and gain real-world experience.<br>
+
+🆘 I’m looking for help with<br>Deepening my knowledge of AWS architecture, DevOps, automation, security, and production-grade cloud infrastructure.<br>
+
+🌱 I’m currently learning<br>AWS, Cloud Architecture, Linux, Networking, Docker, CI/CD, Infrastructure as Code, and DevOps.<br>💬 Ask me about<br>AWS, EC2, S3, IAM, VPC, RDS, Route 53, CloudFront, Load Balancers, CloudWatch, Linux, and cloud architecture.<br>
+
+⚡ Fun fact<br>I don't just want to use the cloud — I want to understand how everything works behind it. ☁️🚀<br>
+
+⭐ My recommended version for your GitHub<br>🔭 Building and deploying cloud-based applications with AWS ☁️<br>
+
+🤝 Open to collaborating on AWS, Cloud & DevOps projects<br>🌱 Currently mastering AWS, Linux, Networking, Docker & CI/CD<br>
+
+💬 Ask me about AWS, Cloud Architecture & DevOps<br>⚡ Learning the cloud one service at a time. 🚀
 
 
 ## 🌐 Socials:
